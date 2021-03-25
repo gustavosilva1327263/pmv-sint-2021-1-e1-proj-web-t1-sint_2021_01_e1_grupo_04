@@ -11,7 +11,7 @@
 - Obi-Wan Kenobi 
 - Anakin Skywalker
 - Leia Skywalker
-- Darth Vader
+- Han Solo
 - Victor Luygg de Melo Santos
 - Ana Luiza Lisboa do Nascimento
 
