@@ -11,7 +11,8 @@
 - Obi-Wan Kenobi 
 - Anakin Skywalker
 - Leia Skywalker
-- Victor Luygg
+- Darth Vader
+- Victor Luygg de Melo Santos
 - Ana Luiza Lisboa do Nascimento
 
 ## Professor
