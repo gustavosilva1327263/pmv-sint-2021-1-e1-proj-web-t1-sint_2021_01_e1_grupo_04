@@ -10,6 +10,7 @@
 
 - Obi-Wan Kenobi 
 - Anakin Skywalker
+- Leia Skywalker
 - Victor Luygg
 - Ana Luiza Lisboa do Nascimento
 
