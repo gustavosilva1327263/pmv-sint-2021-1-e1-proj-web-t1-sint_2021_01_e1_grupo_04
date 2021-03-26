@@ -8,7 +8,7 @@
 
 ## Integrantes
 
-- Obi-Wan Kenobi 
+- Alan Alves
 - Anakin Skywalker
 - Leia Skywalker
 - Darth Vader
