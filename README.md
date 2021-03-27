@@ -12,6 +12,7 @@
 - Anakin Skywalker
 - Victor Luygg
 - Ana Luiza Lisboa do Nascimento
+- Gustavo Silva
 
 ## Professor
 
