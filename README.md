@@ -8,9 +8,11 @@
 
 ## Integrantes
 
-- Obi-Wan Kenobi 
+- Alan Alves
 - Anakin Skywalker
-- Victor Luygg
+- Leia Skywalker
+- Darth Vader
+- Victor Luygg de Melo Santos
 - Ana Luiza Lisboa do Nascimento
 - Gustavo Silva
 teste
