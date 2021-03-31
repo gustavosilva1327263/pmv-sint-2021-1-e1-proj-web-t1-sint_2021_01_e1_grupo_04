@@ -19,7 +19,7 @@
 
 ## Professor
 
-- Mestre Yoda
+- Mestre Yoda.
 
 # Documentação
 
