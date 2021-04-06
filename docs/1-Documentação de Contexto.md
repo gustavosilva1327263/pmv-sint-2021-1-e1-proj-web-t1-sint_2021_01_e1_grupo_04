@@ -32,9 +32,9 @@ Desenvolver uma aplicação web com o intuito de auxiliar, monitorar e detectar 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O desenvolvimento e execução do projeto se justificam pela ausência de tecnologia que possibilite a verificação, o registro e o controle do consumo de energia do ponto de vista individual. A criação de uma ferramenta capaz de verificar o consumo de energia elétrica de cada um dos aparelhos domésticos possibilita que, em primeira instância, o consumidor final crie métodos para reduzir o consumo, seja por simplesmente desligar os aparelhos, seja por escolher novos equipamentos que utilizem menos energia; e, em segunda instância, que as companhias elétricas identifiquem problemas de perda/desvio de energia.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Além disso, a criação de uma ferramenta nesse sentido pode servir de base para que, lançando mão dos dados gerados no aplicativo, governos e empresas criem políticas públicas para melhorar a produção e distribuição de energia elétrica numa determinada região.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
