@@ -1,13 +1,12 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Esse projeto visa solucionar dois problemas clássicos entre as empresas fornecedoras de energia elétrica e seus consumidores. O primeiro sendo o controle do consumo e aferição da energia consumida pelos diferentes aparelhos instalados em uma residência e/ou empresa. E a segunda, a comunicação desses dados para o consumidor, afim de que ele possa controlar seu consumo e torná-lo mais econômico e sustentável. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+No contrato de prestação de serviços entre as empresas de energia elétrica e os consumidores existem duas falhas importantes. A primeira delas se dá no campo da aferição do consumo de energia elétrica. Atualmente, a medição do consumo é muitas vezes falha e imprecisa em suas informações. E essas imprecisões nos levam a apontar uma segunda falha, não menos importante. Apesar de o consumidor ter uma idéia geral de quais aparelhos consomem mais energia, ele não tem controle sobre esse consumo e tampouco informações detalhadas para que ele possa tomar decisões sobre a utilização da eletricidade contratada. 
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Nossa aplicação visa atacar esse problema de comunicação entre as duas partes, afim de permitir que os consumidores possam ter controle sobre o uso da energia que estão pagando. Como consequência, as empresas fornecedoras também ganham, porque uma vez que o consumo seja mais consciente, as tarifas podem diminuir e o consumo ilegal de energia elétrica também. 
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
