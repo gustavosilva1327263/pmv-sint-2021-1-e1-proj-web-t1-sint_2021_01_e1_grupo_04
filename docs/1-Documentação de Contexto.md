@@ -36,8 +36,6 @@ O desenvolvimento e execução do projeto se justificam pela ausência de tecnol
 
 Além disso, a criação de uma ferramenta nesse sentido pode servir de base para que, lançando mão dos dados gerados no aplicativo, governos e empresas criem políticas públicas para melhorar a produção e distribuição de energia elétrica numa determinada região.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
