@@ -15,9 +15,17 @@ Nossa aplicação visa atacar esse problema de comunicação entre as duas parte
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+### Objetivo Geral:
+Desenvolver uma aplicação web com o intuito de auxiliar, monitorar e detectar possíveis falhas ou desvios no consumo de energia residencial , trazendo ao usuário final uma redução de gastos através de um consumo consciente e sustentável. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+### Objetivos específicos:
+
+- Criar mecanismos de verificação do consumo de cada aparelho eletrônico conectado à corrente elétrica.
+
+- Criar um banco de dados onde serão transferidos  e armazenados todos os dados  de consumo de energia recebidos.
+
+- Desenvolver uma aplicação web que acesse o banco de dados e transmita as informações coletadas com segurança e em tempo real ao usuário final.
+
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
