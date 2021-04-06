@@ -1,18 +1,14 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Sistemas para internet`
 
-`DISCIPLINA`
+`Projeto: Aplicações Web`
 
-`SEMESTRE`
+`Primeiro Semestre`
 
 ## Integrantes
 
 - Alan Alves
-- Anakin Skywalker
-- Leia Skywalker
-- Barões da pisadinha(hahaha) .
-  Barões da pisadinha (teste 02)
 - Victor Luygg de Melo Santos
 - Ana Luiza Lisboa do Nascimento
 - Sabrina Gonzaga 
@@ -20,7 +16,7 @@
 
 ## Professor
 
-- Mestre Yoda.
+- Fabiano Costa Teixeira.
 
 # Documentação
 
