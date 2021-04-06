@@ -19,7 +19,8 @@
 - Fabiano Costa Teixeira.
 
 # Documentação
-
+Público alvo:
+O desenvolvimento desta aplicação web trará vantagens tanto ao consumidor quanto para as companhias de energia. O usuário residencial irá se beneficiar por obter um conhecimento sobre quais aparelhos utilizam mais energia e quais os horários de pico em que o consumo de energia deve ser reduzido, trazendo assim uma economia ao consumidor. Já as companhias elétricas terão uma praticidade maior para checar se os aparelhos utilizados dentro de uma residência é compatível com a quantidade de energia consumida.
 <ol>
 <li><a href="docs/1-Documentação de Contexto.md"> Documentação de Contexto</a></li>
 <li><a href="docs/2-Especificação do Projeto.md"> Especificação do Projeto</a></li>
