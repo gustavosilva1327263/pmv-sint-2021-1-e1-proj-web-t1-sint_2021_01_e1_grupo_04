@@ -1,6 +1,8 @@
 # Introdução
 
-Esse projeto visa solucionar dois problemas clássicos entre as empresas fornecedoras de energia elétrica e seus consumidores. O primeiro sendo o controle do consumo e aferição da energia consumida pelos diferentes aparelhos instalados em uma residência e/ou empresa. E a segunda, a comunicação desses dados para o consumidor, afim de que ele possa controlar seu consumo e torná-lo mais econômico e sustentável. 
+Em se tratando do consumo de energia elétrica, pouco se sabe acerca do uso individualizado da rede elétrica e quais os custos envolvidos por problemas como uso de equipamentos ultrapassados e perda ou desvio de corrente elétrica. Essa falta de informação impede que medidas possam ser tomadas a fim de tornar mais eficiente o uso da energia elétrica, não somente no nível individual, mas coletivo também.
+
+Entre outros, dois aspectos serão trabalhados nesse projeto: a aferição do consumo da energia elétrica e identificação dos diferentes aparelhos utilizados em uma residência e/ou empresa de maneira individualizada, que permita, entre outras coisas, maiores controle e fiscalização do consumo de energia, tornando a rede elétrica mais econômica e sustentável.
 
 ## Problema
 
