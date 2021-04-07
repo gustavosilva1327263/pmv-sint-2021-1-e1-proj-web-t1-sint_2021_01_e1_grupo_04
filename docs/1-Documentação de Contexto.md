@@ -28,6 +28,8 @@ O desenvolvimento e execução do projeto se justificam pela ausência de tecnol
 
 Além disso, a criação de uma ferramenta nesse sentido pode servir de base para que, lançando mão dos dados gerados no aplicativo, governos e empresas criem políticas públicas para melhorar a produção e distribuição de energia elétrica numa determinada região.
 
+## Estado da Arte
+
 
 ## Público-Alvo
 O desenvolvimento desta aplicação web trará vantagens tanto ao consumidor quanto para as companhias de energia. O usuário residencial irá se beneficiar por obter um conhecimento sobre quais aparelhos utilizam mais energia e quais os horários de pico em que o consumo de energia deve ser reduzido, trazendo assim uma economia ao consumidor. Já as companhias elétricas terão uma praticidade maior para checar se os aparelhos utilizados dentro de uma residência é compatível com a quantidade de energia consumida.
