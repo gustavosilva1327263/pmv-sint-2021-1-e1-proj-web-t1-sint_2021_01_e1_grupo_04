@@ -33,6 +33,5 @@ Além disso, a criação de uma ferramenta nesse sentido pode servir de base par
 
 ## Público-Alvo
 O desenvolvimento desta aplicação web trará vantagens tanto ao consumidor quanto para as companhias de energia. O usuário residencial irá se beneficiar por obter um conhecimento sobre quais aparelhos utilizam mais energia e quais os horários de pico em que o consumo de energia deve ser reduzido, trazendo assim uma economia ao consumidor. Já as companhias elétricas terão uma praticidade maior para checar se os aparelhos utilizados dentro de uma residência é compatível com a quantidade de energia consumida.
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+
 
