@@ -13,6 +13,11 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
 
 ### Chefe de Família
 
+
+| Primeiro cabeçalho  |  Segundo cabeçalho  |
+| ------------------- | ------------------- |
+|  Célula de conteúdo |  Célula de conteúdo |
+|  Célula de conteúdo |  Célula de conteúdo |
 Maria, 28, é casada, tem 2 filhos, é médica e a responsável pela gestão financeira da casa. Ela é muito preocupada com as economias, por isso sempre briga com os filhos e com a esposa, Joana, para que desliguem as luzes e os aparelhos. Além disso, é muito minuciosa, e gosta de entender as coisas no menor detalhe.
 
 ### Gerente Empresarial
@@ -39,7 +44,7 @@ Com base na análise das personas forma identificadas as histórias de usuários
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar os aparelhos eletrônicos | Identificar e ontrolar o consumo por aparelho   |
+|Usuário do sistema  | Registrar os aparelhos eletrônicos | Identificar e controlar o consumo por aparelho   |
 |Usuário do sistema  | Registrar o consumo de energia total (kWh) | Calcular o consumo individual  |
 |Usuário do sistema  | Consultar o consumo diário, semanal e mensal | Identificar os períodos de maior consumo |
 |Usuário do sistema  | Consultar o consumo por aparelho   | Identificar os aparelhos que mais consomem |
