@@ -2,9 +2,9 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+`Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto`
 
 ## Personas
 
@@ -19,7 +19,6 @@ Fabiana, 45, gerente administrativa de uma fábrica de cosméticos, pretende red
 ### Companhia Elétrica
 
 Companhia Elétrica Brazuca. Empresa distribuídora de energia elétrica no interior de Minas Gerais. Fornece energia a cerca de 300 mil pessoas. Preocupada com o desvio de energia, precisa monitorar o consumo individualizado.
-
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
@@ -37,13 +36,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar os aparelhos eletrônicos | Controlar o consumo de cada aparelho   |
+|Usuário do sistema  | Registrar os aparelhos eletrônicos | Identificar e ontrolar o consumo por aparelho   |
 |Usuário do sistema  | Registrar o consumo de energia total (kWh) | Calcular o consumo individual  |
 |Usuário do sistema  | Consultar o consumo diário, semanal e mensal | Identificar os períodos de maior consumo |
 |Usuário do sistema  | Consultar o consumo por aparelho   | Identificar os aparelhos que mais consomem |
+|Usuário do sistema  | Agrupar equipamentos para controle por cômodo/setor | Identificar onde mais se consome  |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
