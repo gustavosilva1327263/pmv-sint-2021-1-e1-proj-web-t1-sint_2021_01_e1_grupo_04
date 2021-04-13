@@ -18,7 +18,7 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
  
   <tr>
  <td><b>Idade:</b> 28 </td>
- <td><b>Ocupação:</b> Médica,responsável pela gestão financeira da casa.</td>
+ <td><b>Ocupação:</b> Médica, responsável pela gestão financeira da casa.</td>
    <td><b>Aparelhos mais usados</b><br>
     ● 	Geladeira<br>
     ● 	Máquina de Lavar<br>
@@ -27,7 +27,7 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
   <tr>
     <td><b>Motivações</b><br>
 ● 	Poder entender o tanto que cada aparelho utiliza de energia.<br>
-● 	Saber quais horários o consumo de energia deve ser reduzido </td>
+● 	Saber quais horários o consumo de energia deve ser reduzido.</td>
     <td><b>Frustrações</b><br>
 ● 	preocupada com as economias<br>
 ● 	em constante discussões com os outros membros da família em relação ao consumo de energia</td>
@@ -64,12 +64,18 @@ Com base na análise das personas forma identificadas as histórias de usuários
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar os aparelhos eletrônicos | Identificar e controlar o consumo por aparelho   |
-|Usuário do sistema  | Registrar o consumo de energia total (kWh) | Calcular o consumo individual  |
-|Usuário do sistema  | Consultar o consumo diário, semanal e mensal | Identificar os períodos de maior consumo |
-|Usuário do sistema  | Consultar o consumo por aparelho   | Identificar os aparelhos que mais consomem |
-|Usuário do sistema  | Agrupar equipamentos para controle por cômodo/setor | Identificar onde mais se consome  |
-
+|Consumidor | Identificar o custo de cada aparelho eletrônico | Economizar |
+|Fornecedor | Identificar os casos de perda/desvio de energia elétrica | Reduzir o prejuízo |
+|---|---|---|
+|Consumidor | Registrar os aparelhos eletrônicos | Identificar e controlar o custo de cada aparelho |
+|Consumidor | Consultar o histórico de consumo de energia total (kWh) | Controlar o consumo ao longo do tempo |
+|Consumidor | Consultar o consumo diário, semanal e mensal | Identificar os períodos de maior consumo |
+|Consumidor | Consultar o consumo por aparelho | Identificar os aparelhos que mais consomem |
+|Consumidor | Agrupar equipamentos para controle por cômodo/setor | Identificar onde mais se consome  |
+|Consumidor | Agrupar equipamentos para controle por tipo/natureza | Identificar onde mais se consome  |
+|Fornecedor | Consultar a média de consumo por região | Identificar casos de consumo atípicos (mais altos ou mais baixos) |
+|Fornecedor | Consultar os dados e o consumo de cada usuário | Identificar os consumidores |
+|Fornecedor | Consultar a média de consumo por região | Identificar casos de consumo atípicos (mais altos ou mais baixos) |
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
