@@ -6,6 +6,11 @@
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto`
 
+De maneira geral, a medição do consumo é insuficiente, no sentido de que não identifica o consumo individualizado por aparelho de maneira precisa.
+
+Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo a imprecisão do consumo de energia elétrica indiviualizado, afim de permitir que os consumidores controlem o uso da energia que estão pagando.
+
+
 ## Personas
 
 ### Chefe de Família
@@ -32,7 +37,7 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas forma identificadas as histórias de usuários abaixo:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
@@ -41,7 +46,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | Consultar o consumo diário, semanal e mensal | Identificar os períodos de maior consumo |
 |Usuário do sistema  | Consultar o consumo por aparelho   | Identificar os aparelhos que mais consomem |
 |Usuário do sistema  | Agrupar equipamentos para controle por cômodo/setor | Identificar onde mais se consome  |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 
 > **Links Úteis**:
