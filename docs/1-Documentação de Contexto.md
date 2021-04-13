@@ -36,6 +36,10 @@ Além disso, a criação de uma ferramenta nesse sentido pode servir de base par
 
 ## Estado da Arte
 
+Até o período em que este projeto está sendo desenvolvido, não foram encontrados sistemas ou aplicativos comercializados voltados para o mesmo objeto, qual seja o monitoramento e controle do consumo de energia elétrica de maneira individualizada, sobretudo a nível de aparelhos e equipamentos eletrônicos.
+
+A fim de subsidiar os fundamentos teóricos necessários para o desenvolvimento do projeto, foi consultada bibliografia que trate do assunto. Existem algumas produções acadêmicas voltadas ao tema, das quais ressaltam-se os trabalhos de Alan Junior Wahlbrinck (2018), Igor Garcia Ballhausen Sampaio (2018) e Bruno Alberto Soares Oliveira (2017). Contudo, vale ressaltar que os três trabalhos citados necessitam diretamente do uso de um componente de hardware para que as informações sejam coletadas.
+
 
 
 ## Público-Alvo
