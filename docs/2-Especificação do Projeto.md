@@ -13,7 +13,7 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
 
 ### Chefe de Família
 
-Maria, 28, é casada, tem 2 filhos, é médica e a responsável pela gestão financeira da casa. Ela é muito preoculpada com as economias, por isso sempre briga com os filhos e com a esposa, Joana, para que desliguem as luzes e os aparelhos. Além disso, é muito minuciosa, e gosta de entender as coisas no menor detalhe.
+Maria, 28, é casada, tem 2 filhos, é médica e a responsável pela gestão financeira da casa. Ela é muito preocupada com as economias, por isso sempre briga com os filhos e com a esposa, Joana, para que desliguem as luzes e os aparelhos. Além disso, é muito minuciosa, e gosta de entender as coisas no menor detalhe.
 
 ### Gerente Empresarial
 
