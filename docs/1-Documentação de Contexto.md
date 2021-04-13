@@ -4,13 +4,13 @@ Em se tratando do consumo de energia elétrica, pouco se sabe acerca do uso indi
 
 Entre outros aspectos, dois serão trabalhados nesse projeto: (1) a aferição do consumo da energia elétrica e (2) a identificação dos diferentes aparelhos utilizados em uma residência e/ou empresa de maneira individualizada, que permita, entre outras coisas, maiores controle e fiscalização do consumo de energia, tornando a rede elétrica mais econômica e sustentável.
 
+
 ## Problema
 
 No contrato de prestação de serviços entre as companhias elétricas e os consumidores existem algumas questões importantes. A primeira delas que será tratada neste projeto se dá no campo da aferição do consumo de energia elétrica. De maneira geral, a medição do consumo é crua e insuficiente, de modo que as informações aferidas não levam em consideração outros aspectos além da quantidade bruta de energia consumida. Essa insuficiência aponta para a segunda questão a ser tratada: apesar de o consumidor ter uma idéia geral de quais aparelhos consomem mais energia, não há como precisar informações detalhadas acerca da energia consumida pelos equipamentos. Em outras palavras, o consumidor não tem controle sobre esse consumo e tampouco informações detalhadas que possam lhe auxiliar na tomada de decisões sobre a utilização da eletricidade contratada.
 
-Nesse sentido, a partir do desenvolvimento de uma aplicação, este projeto visa à precisão do consumo de energia elétrica indiviualizado, afim de permitir que os consumidores possam ter controle sobre o uso da energia que estão pagando. Como consequência, as empresas fornecedoras também ganham, porque uma vez que o consumo seja mais consciente, as tarifas podem diminuir e o consumo ilegal de energia elétrica também. 
+Nesse sentido, a partir do desenvolvimento de uma aplicação, este projeto visa à precisão do consumo de energia elétrica indiviualizado, afim de permitir que os consumidores possam ter controle sobre o uso da energia que estão pagando. Como consequência, as empresas fornecedoras também ganham, porque uma vez que o consumo seja mais consciente, as tarifas podem diminuir e o consumo ilegal de energia elétrica também.
 
-problema de comunicação entre as duas partes,
 
 ## Objetivos
 
@@ -33,7 +33,9 @@ O desenvolvimento e execução do projeto se justificam pela ausência de tecnol
 
 Além disso, a criação de uma ferramenta nesse sentido pode servir de base para que, lançando mão dos dados gerados no aplicativo, governos e empresas criem políticas públicas para melhorar a produção e distribuição de energia elétrica numa determinada região.
 
+
 ## Estado da Arte
+
 
 
 ## Público-Alvo
