@@ -12,6 +12,31 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
 ## Personas
 
 ### Chefe de Família
+<table border="1">    
+  <tr> <th colspan="3"> <img src="https://medicina.ucpel.edu.br/wp-content/uploads/2020/07/apacucpel_ucpel_image_319-1024x960.jpeg" height="200" width="200"> 
+ <tr><th colspan="3"> Maria Silva</th> 
+ 
+  <tr>
+ <td><b>Idade:</b> 28 </td>
+ <td><b>Ocupação:</b> Médica,responsável pela gestão financeira da casa.</td>
+   <td><b>Aparelhos mais usados</b><br>
+    ● 	Geladeira<br>
+    ● 	Máquina de Lavar<br>
+● 	 Chuveiro</td>
+  </tr>
+  <tr>
+    <td><b>Motivações</b><br>
+● 	Poder entender o tanto que cada aparelho utiliza de energia.<br>
+● 	Saber quais horários o consumo de energia deve ser reduzido </td>
+    <td><b>Frustrações</b><br>
+● 	preocupada com as economias<br>
+● 	em constante discussões com os outros membros da família em relação ao consumo de energia</td>
+ 
+ <td><b>Hobbies, História</b><br>
+● 	Assistir filmes com a família<br>
+●  Viajar </td>
+ </tr>
+</table>
 
 Maria, 28, é casada, tem 2 filhos, é médica e a responsável pela gestão financeira da casa. Ela é muito preocupada com as economias, por isso sempre briga com os filhos e com a esposa, Joana, para que desliguem as luzes e os aparelhos. Além disso, é muito minuciosa, e gosta de entender as coisas no menor detalhe.
 
