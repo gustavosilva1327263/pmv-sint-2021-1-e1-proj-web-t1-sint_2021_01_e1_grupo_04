@@ -40,11 +40,11 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
 
 Maria, 28, é casada, tem 2 filhos, é médica e a responsável pela gestão financeira da casa. Ela é muito preocupada com as economias, por isso sempre briga com os filhos e com a esposa, Joana, para que desliguem as luzes e os aparelhos. Além disso, é muito minuciosa, e gosta de entender as coisas no menor detalhe.
 
-### Gerente Empresarial
+### Fabiana (Consumidor/a)
 
-Fabiana, 45, gerente administrativa de uma fábrica de cosméticos, pretende reduzir todos os custos da fábrica. Por utilizar muitos equipamentos, decide verificar o custo-benefício exato de cada equipamento, a fim de substituir os itens que mais consomem por outros mais eficientes.
+Fabiana, 45, Gerente Empresarial. Gerencia uma fábrica de cosméticos, pretende reduzir todos os custos da fábrica. Por utilizar muitos equipamentos, decide verificar o custo-benefício exato de cada equipamento, a fim de substituir os itens que mais consomem por outros mais eficientes.
 
-### Companhia Elétrica
+### Concessionária (Fornecedor)
 
 Companhia Elétrica Brazuca. Empresa distribuídora de energia elétrica no interior de Minas Gerais. Fornece energia a cerca de 300 mil pessoas. Preocupada com o desvio de energia, precisa monitorar o consumo individualizado.
 
