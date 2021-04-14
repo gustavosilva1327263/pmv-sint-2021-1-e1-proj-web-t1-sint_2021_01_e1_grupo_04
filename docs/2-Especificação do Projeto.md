@@ -2,8 +2,6 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-> Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto. Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 De maneira geral, a medição do consumo é insuficiente, no sentido de que não identifica o consumo individualizado por aparelho de maneira precisa.
 
 Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo a imprecisão do consumo de energia elétrica indiviualizado, afim de permitir que os consumidores controlem o uso da energia que estão pagando.
@@ -13,28 +11,30 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
 
 ### Chefe de Família
 <table border="1">    
-  <tr> <th colspan="3"> <img src="https://medicina.ucpel.edu.br/wp-content/uploads/2020/07/apacucpel_ucpel_image_319-1024x960.jpeg" height="200" width="200"> 
- <tr><th colspan="3"> Maria Silva</th> 
- 
-  <tr>
- <td><b>Idade:</b> 28 </td>
- <td><b>Ocupação:</b> Médica, responsável pela gestão financeira da casa.</td>
-   <td><b>Aparelhos mais usados</b><br>
-    ● 	Geladeira<br>
-    ● 	Máquina de Lavar<br>
-● 	 Chuveiro</td>
-  </tr>
+ <tr> 
+  <th colspan="3"> <img src="https://medicina.ucpel.edu.br/wp-content/uploads/2020/07/apacucpel_ucpel_image_319-1024x960.jpeg" height="200" width="200"> 
+  <tr><th colspan="3"> Maria Silva</th> 
+ </tr>
+ <tr>
+  <td><b>Idade:</b> 28 </td>
+  <td><b>Ocupação:</b> Médica, responsável pela gestão financeira da casa.</td>
+  <td><b>Aparelhos mais usados</b><br>
+     ● Geladeira<br>
+     ● Máquina de Lavar<br>
+     ● Chuveiro</td>
+ </tr>
   <tr>
     <td><b>Motivações</b><br>
-● 	Poder entender o tanto que cada aparelho utiliza de energia.<br>
-● 	Saber quais horários o consumo de energia deve ser reduzido.</td>
+      ● Poder entender o tanto que cada aparelho utiliza de energia.<br>
+      ● Saber quais horários o consumo de energia deve ser reduzido.
+    </td>
     <td><b>Frustrações</b><br>
-● 	preocupada com as economias<br>
-● 	em constante discussões com os outros membros da família em relação ao consumo de energia</td>
- 
- <td><b>Hobbies, História</b><br>
-● 	Assistir filmes com a família<br>
-●  Viajar </td>
+      ● preocupada com as economias<br>
+      ●	em constante discussões com os outros membros da família em relação ao consumo de energia
+    </td>
+    <td><b>Hobbies, História</b><br>
+     ● 	Assistir filmes com a família<br>
+      ●  Viajar </td>
  </tr>
 </table>
 
@@ -48,21 +48,11 @@ Fabiana, 45, Gerente Empresarial. Gerencia uma fábrica de cosméticos, pretende
 
 Companhia Elétrica Brazuca. Empresa distribuídora de energia elétrica no interior de Minas Gerais. Fornece energia a cerca de 300 mil pessoas. Preocupada com o desvio de energia, precisa monitorar o consumo individualizado.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-> Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as histórias de usuários abaixo:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 
 |--------------------|------------------------------------|----------------------------------------|
 |Consumidor | Identificar o custo de cada aparelho eletrônico | Economizar |
 |Fornecedor | Identificar os casos de perda/desvio de energia elétrica | Reduzir o prejuízo |
@@ -76,13 +66,6 @@ Com base na análise das personas forma identificadas as histórias de usuários
 |Fornecedor | Consultar a média de consumo por região | Identificar casos de consumo atípicos (mais altos ou mais baixos) |
 |Fornecedor | Consultar os dados e o consumo de cada usuário | Identificar os consumidores |
 |Fornecedor | Consultar a média de consumo por região | Identificar casos de consumo atípicos (mais altos ou mais baixos) |
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
