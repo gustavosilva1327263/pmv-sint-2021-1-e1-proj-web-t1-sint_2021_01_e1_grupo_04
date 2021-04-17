@@ -10,7 +10,7 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
 ## Personas
 
 ### Maria (Consumidora)
-<table border="1" width="10%">    
+<table border="1" width="800px">    
  <tr> 
   <th colspan="3"> <img src="https://medicina.ucpel.edu.br/wp-content/uploads/2020/07/apacucpel_ucpel_image_319-1024x960.jpeg" height="200" width="200"> 
   <tr><th colspan="3"> Maria Silva</th> 
