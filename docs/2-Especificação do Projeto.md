@@ -56,7 +56,7 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
   <tr>
     <td><b>Motivações</b><br>
       ● Diminuir os custos da sua empresa;<br>
-      ● Aumentar a eficiência da empresa.
+      ● Aumentar a eficiência da empresa e expandir o próprio mercado.
     </td>
     <td><b>Frustrações</b><br>
       ● Equipamentos ruins ou com problemas<br>
