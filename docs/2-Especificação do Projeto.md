@@ -107,7 +107,6 @@ Com base na análise das personas forma identificadas as histórias de usuários
 |--------------------|------------------------------------|----------------------------------------|
 |Consumidor | Identificar o custo de cada aparelho eletrônico | Economizar |
 |Fornecedor | Identificar os casos de perda/desvio de energia elétrica | Reduzir o prejuízo |
-|---|---|---|
 |Consumidor | Registrar os aparelhos eletrônicos | Identificar e controlar o custo de cada aparelho |
 |Consumidor | Consultar o histórico de consumo de energia total (kWh) | Controlar o consumo ao longo do tempo |
 |Consumidor | Consultar o consumo diário, semanal e mensal | Identificar os períodos de maior consumo |
