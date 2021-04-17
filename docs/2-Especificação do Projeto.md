@@ -18,10 +18,9 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
  <tr>
   <td><b>Idade:</b> 28 </td>
   <td><b>Ocupação:</b> Médica, responsável pela gestão financeira da casa.</td>
-  <td><b>Aparelhos mais usados</b><br>
-     ● Geladeira<br>
-     ● Máquina de Lavar<br>
-     ● Chuveiro</td>
+  <td><b>Aplicativos mais usados</b><br>
+     ● Instagram<br>
+     ● Twitter</td>
  </tr>
   <tr>
     <td><b>Motivações</b><br>
@@ -33,7 +32,7 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
       ●	em constante discussões com os outros membros da família em relação ao consumo de energia
     </td>
     <td><b>Hobbies, História</b><br>
-     ● 	Assistir filmes com a família<br>
+      ● 	Assistir filmes com a família<br>
       ●  Viajar </td>
  </tr>
 </table>
@@ -41,11 +40,64 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
 
 ### Fabiana (Consumidora)
 
-Fabiana, 45, Gerente Empresarial. Gerencia uma fábrica de cosméticos, pretende reduzir todos os custos da fábrica. Por utilizar muitos equipamentos, decide verificar o custo-benefício exato de cada equipamento, a fim de substituir os itens que mais consomem por outros mais eficientes.
+<table border="1">    
+ <tr> 
+  <th colspan="3"> <img src="https://uploads.metropoles.com/wp-content/uploads/2020/04/10094941/Nina-Silva_200519_Luciana-Prezia-1024x683-1-600x400.jpg" height="200" width="200"> 
+  <tr><th colspan="3"> Fabiana Santos</th> 
+ </tr>
+ <tr>
+  <td><b>Idade:</b> 33 </td>
+  <td><b>Ocupação:</b> Gerente de uma fábrica de cosméticos</td>
+  <td><b>Aplicativos mais usados</b><br>
+     ● Instagram<br>
+     ● Twitter<br>
+     ● Pinterest</td>
+ </tr>
+  <tr>
+    <td><b>Motivações</b><br>
+      ● Diminuir os custos da sua empresa;<br>
+      ● Aumentar a eficiência da empresa.
+    </td>
+    <td><b>Frustrações</b><br>
+      ● Equipamentos ruins ou com problemas<br>
+      ●	Não alcançar as metas da empresa
+    </td>
+    <td><b>Hobbies, História</b><br>
+      ● 	Cinema<br>
+      ●  Praia</td>
+ </tr>
+</table>
+
 
 ### Evandro (Fornecedor)
 
-Evandro, 39, Engenheiro Elétrico. Fiscal Técnico na Companhia Elétrica Brazuca, empresa distribuídora de energia elétrica no interior de Minas Gerais. Responsável pela fiscalização de perda e desvios de energia elétrica na rede da companhia. Preocupada com o desvio de energia, precisa monitorar o consumo individualizado.
+<table border="1">    
+ <tr> 
+  <th colspan="3"> <img src="https://opetroleo.com.br/wp-content/uploads/2016/07/engenheiro-eletricista.jpg" height="200" width="200"> 
+  <tr><th colspan="3"> Fabiana Santos</th> 
+ </tr>
+ <tr>
+  <td><b>Idade:</b> 45 </td>
+  <td><b>Ocupação:</b> Fiscal Técnico de uma concessionária</td>
+  <td><b>Aplicativos mais usados</b><br>
+     ● Facebook<br>
+     ● YouTube<br>
+     ● Clash of Clans (jogo de celular)</td>
+ </tr>
+  <tr>
+    <td><b>Motivações</b><br>
+      ● Acabar com perdas e desvios de energia elétrica;<br>
+      ● Melhorar a qualidade da distribuição de energia elétrica.
+    </td>
+    <td><b>Frustrações</b><br>
+      ● Desvios de energia (gatos)<br>
+      ●	Inadimplência
+    </td>
+    <td><b>Hobbies, História</b><br>
+      ● 	Sítio ou chácara<br>
+      ●  Comer</td>
+ </tr>
+</table>
 
 ## Histórias de Usuários
 
