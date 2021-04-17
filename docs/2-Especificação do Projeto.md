@@ -40,7 +40,7 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
 
 ### Fabiana (Consumidora)
 
-<table border="1">    
+<table border="1" width="800px">
  <tr> 
   <th colspan="3"> <img src="https://uploads.metropoles.com/wp-content/uploads/2020/04/10094941/Nina-Silva_200519_Luciana-Prezia-1024x683-1-600x400.jpg" height="200" width="200"> 
   <tr><th colspan="3"> Fabiana Santos</th> 
@@ -71,7 +71,7 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
 
 ### Evandro (Fornecedor)
 
-<table border="1">    
+<table border="1" width="800px">
  <tr> 
   <th colspan="3"> <img src="https://opetroleo.com.br/wp-content/uploads/2016/07/engenheiro-eletricista.jpg" height="200" width="200"> 
   <tr><th colspan="3"> Fabiana Santos</th> 
