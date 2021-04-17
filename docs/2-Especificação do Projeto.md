@@ -9,7 +9,7 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
 
 ## Personas
 
-### Chefe de Família
+### Maria (Consumidora)
 <table border="1">    
  <tr> 
   <th colspan="3"> <img src="https://medicina.ucpel.edu.br/wp-content/uploads/2020/07/apacucpel_ucpel_image_319-1024x960.jpeg" height="200" width="200"> 
@@ -38,15 +38,14 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
  </tr>
 </table>
 
-Maria, 28, é casada, tem 2 filhos, é médica e a responsável pela gestão financeira da casa. Ela é muito preocupada com as economias, por isso sempre briga com os filhos e com a esposa, Joana, para que desliguem as luzes e os aparelhos. Além disso, é muito minuciosa, e gosta de entender as coisas no menor detalhe.
 
-### Fabiana (Consumidor/a)
+### Fabiana (Consumidora)
 
 Fabiana, 45, Gerente Empresarial. Gerencia uma fábrica de cosméticos, pretende reduzir todos os custos da fábrica. Por utilizar muitos equipamentos, decide verificar o custo-benefício exato de cada equipamento, a fim de substituir os itens que mais consomem por outros mais eficientes.
 
-### Concessionária (Fornecedor)
+### Evandro (Fornecedor)
 
-Companhia Elétrica Brazuca. Empresa distribuídora de energia elétrica no interior de Minas Gerais. Fornece energia a cerca de 300 mil pessoas. Preocupada com o desvio de energia, precisa monitorar o consumo individualizado.
+Evandro, 39, Engenheiro Elétrico. Fiscal Técnico na Companhia Elétrica Brazuca, empresa distribuídora de energia elétrica no interior de Minas Gerais. Responsável pela fiscalização de perda e desvios de energia elétrica na rede da companhia. Preocupada com o desvio de energia, precisa monitorar o consumo individualizado.
 
 ## Histórias de Usuários
 
