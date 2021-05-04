@@ -103,14 +103,14 @@ Com base na análise das personas forma identificadas as histórias de usuários
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 
 |--------------------|------------------------------------|----------------------------------------|
-|Maria | Identificar o custo de cada aparelho eletrônico | Economizar |
-|Evandro | Identificar os casos de perda/desvio de energia elétrica | Reduzir o prejuízo |
+|Maria | Identificar o custo de cada aparelho eletrônico em tempo real | Economizar |
+|Maria | Consultar o consumo por aparelho | Identificar os aparelhos que mais consomem |
 |**Maria | Registrar os aparelhos eletrônicos | Identificar e controlar o custo de cada aparelho**|
 |Fabiana | Consultar o histórico de consumo de energia total (kWh) | Controlar o consumo ao longo do tempo |
 |Fabiana | Consultar o consumo diário, semanal e mensal | Identificar os períodos de maior consumo |
-|Maria | Consultar o consumo por aparelho | Identificar os aparelhos que mais consomem |
 |**Fabiana | Agrupar equipamentos para controle por cômodo/setor | Identificar onde mais se consome**  |
 |**Fabiana | Agrupar equipamentos para controle por tipo/natureza | Identificar onde mais se consome**  |
+|Evandro | Identificar os casos de perda/desvio de energia elétrica | Reduzir o prejuízo |
 |Evandro | Consultar a média de consumo por região | Identificar casos de consumo atípicos (mais altos ou mais baixos) |
 |Evandro | Consultar os dados e o consumo de cada usuário | Identificar os consumidores |
 
@@ -122,31 +122,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| Consultar o consumo de energia por aparelho | ALTA |
+|RF-002| Emitir relatório de consumo por período (dia, semana, mês, ano) | MÉDIA |
+|RF-003| Identificar aparelhos com maior consumo | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O sistema deve fornecer as informações em tempo real | ALTA |
+|RNF-002| O sistema deve ser responsivo para rodar em um dispositivo móvel | MÉDIA |
 
 ## Restrições
 
