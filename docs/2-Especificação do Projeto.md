@@ -103,16 +103,16 @@ Com base na análise das personas forma identificadas as histórias de usuários
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 
 |--------------------|------------------------------------|----------------------------------------|
-|!!Consumidor | Identificar o custo de cada aparelho eletrônico | Economizar |
-|Fornecedor | Identificar os casos de perda/desvio de energia elétrica | Reduzir o prejuízo |
-|Consumidor | Registrar os aparelhos eletrônicos | Identificar e controlar o custo de cada aparelho |
-|Consumidor | Consultar o histórico de consumo de energia total (kWh) | Controlar o consumo ao longo do tempo |
-|Consumidor | Consultar o consumo diário, semanal e mensal | Identificar os períodos de maior consumo |
-|Consumidor | Consultar o consumo por aparelho | Identificar os aparelhos que mais consomem |
-|!!Consumidor | Agrupar equipamentos para controle por cômodo/setor | Identificar onde mais se consome  |
-|!!Consumidor | Agrupar equipamentos para controle por tipo/natureza | Identificar onde mais se consome  |
-|Fornecedor | Consultar a média de consumo por região | Identificar casos de consumo atípicos (mais altos ou mais baixos) |
-|Fornecedor | Consultar os dados e o consumo de cada usuário | Identificar os consumidores |
+|Maria | Identificar o custo de cada aparelho eletrônico | Economizar |
+|Evandro | Identificar os casos de perda/desvio de energia elétrica | Reduzir o prejuízo |
+|**Maria | Registrar os aparelhos eletrônicos | Identificar e controlar o custo de cada aparelho**|
+|Fabiana | Consultar o histórico de consumo de energia total (kWh) | Controlar o consumo ao longo do tempo |
+|Fabiana | Consultar o consumo diário, semanal e mensal | Identificar os períodos de maior consumo |
+|Maria | Consultar o consumo por aparelho | Identificar os aparelhos que mais consomem |
+|**Fabiana | Agrupar equipamentos para controle por cômodo/setor | Identificar onde mais se consome**  |
+|**Fabiana | Agrupar equipamentos para controle por tipo/natureza | Identificar onde mais se consome**  |
+|Evandro | Consultar a média de consumo por região | Identificar casos de consumo atípicos (mais altos ou mais baixos) |
+|Evandro | Consultar os dados e o consumo de cada usuário | Identificar os consumidores |
 
 ## Requisitos
 
