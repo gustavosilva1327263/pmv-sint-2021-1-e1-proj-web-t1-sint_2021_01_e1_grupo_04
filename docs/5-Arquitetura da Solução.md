@@ -28,29 +28,23 @@ A solução implementada conta com os seguintes módulos:
 
 Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
 
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
+A imagem a seguir ilustra o fluxo do usuário em nossa solução. Assim
 que o usuário entra na plataforma, ele é apresentado à tela inicial
-(Tela 1) onde ele é confrontado com as opões de editar seu perfil ou
-então visualizar sua galeria.
+(Tela 1) onde ele é confrontado com as opões de fazer login, cadastrar-se, acessar como admin ou
+então recuperar sua senha.
 
-Caso ele opte por seguir pelo primeiro caminho (Editar Perfil), ele é
-redirecionado para a tela de edição de perfil (Tela 2), onde pode
-atualizar seus dados cadastrais. Nessa tela, o usuário também pode
-escolher para editar sua foto de perfil. Ao selecionar essa opção, ele é
-redirecionado para a Tela 3, onde ele a imagem expandida do perfil do
-usuário é mostrado. Ao selecionar a opção para atualizar a imagem, uma
-nova janela abre pedindo para o usuário fazer o upload da nova foto.
-Assim que o processo termina um pop-up exibe o status para o usuário
-(Tela 4) e o usuário é redirecionado para a Tela 2.
+Caso ele opte por seguir pelo primeiro caminho (login), ele é
+redirecionado para a tela principal (Tela 2), onde pode verificar o consumo de
+energia elétrica dos seus aparelhos. Nessa tela, o usuário também pode
+utilizar o menu para ir para a tela de histórico de consumo (Tela 3) ou fazer o logout.
 
-Caso o usuário opte seguir pelo segundo caminho (Visualizar Galeria) ele
-é redirecionado para a Tela 5 com todas as fotos que o usuário possui. O
-usuário pode clicar em um post qualquer para visualizar os detalhes do
-post (Tela 6). Nessa tela, ele pode então escolher editar o post, sendo
-redirecionado para a Tela 7. Ao editar as informações, o usuário pode
-escolher salvar ou deletar o post. Em ambos os casos o status é
-notificado para o usuário (Tela 8) e em seguida ele é redirecionado
-para a Tela 2.
+Caso o usuário opte seguir pelo segundo caminho (cadastrar-se) ele
+é redirecionado para a Tela 4, onde encontrará um formulário de cadastro a ser preenchido.
+
+Caso opte pelo terceiro caminho, o usuário pode acessar a página de admin e adicionar um produto ao sistema e sua potência.
+
+Por último, o usuário pode optar pelo quarto caminho (redefinir senha) e acessar a página de redefinição de senha, 
+onde deverá informar o e-mail para redefinir a mesma. 
 
 ![Exemplo de UserFlow](img/UserFlow.png)
 
@@ -69,11 +63,10 @@ As tecnologias usadas no projeto serão:
 <li> IDE: VSCode
 <li> Versionamento: GIT
 <li> Hospedagem: Heroku
-<li> 
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A hospedagem será feita utilizando a plataforma gratuita heroku. 
 
 > **Links Úteis**:
 >
