@@ -9,10 +9,10 @@
 ## Integrantes
 
 - Alan Alves
-- Victor Luygg de Melo Santos
-- Ana Luiza Lisboa do Nascimento
-- Sabrina Gonzaga 
+- Ana Luiza Lisboa do Nascimento 
 - Gustavo Silva
+- Sabrina Gonzaga
+- Victor Luygg de Melo Santos
 
 ## Professor
 
