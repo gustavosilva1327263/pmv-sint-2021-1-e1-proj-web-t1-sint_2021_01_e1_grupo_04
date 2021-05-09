@@ -1,40 +1,32 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+A interface do aplicativo foi desenvolvida com o objetivo de ser simples para o usuário, com poucos funcionalidades, mas de forma que atenda às suas necessidades.
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+De maneira geral, as telas do aplicativo permitem a consulta do consumo imediato, bem como a possibilidade de emitir o histórico do consumo (por dia, mês ou ano). Além disso, foi desenvolvida uma tela para que novos usuários possam se cadastrar, redefinir sua senha e ainda, no caso do administrador do sistema, a possibilidade de cadastrar novos equipamentos eletro-eletrônicos, a fim de que esses sejam usados para detalhar o consumo.
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
 ## User Flow
 
 ![Exemplo de UserFlow](img/UserFlow.png)
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+O fluxo de usuário (User Flow) do aplicativo mostra quais os caminhos que o usuário poderá seguir para consultar o consumo em tempo real, consultar o histórico de consumo, redefinir a senha e se cadastrar, além de mostrar como o administrador poderá cadastrar novos equipamentos.
 
 
 ## Wireframes
 
+Conforme pode se verificar abaixo, o aplicativo tem como estrutura base três seções: o cabeçalho – onde se encontra o menu –, definido como uma barra superior; o rodapé, definido como uma barra inferior; e o conteúdo, localizado na parte central da tela.
+
 ![Estrutura Site](img/estruturaSite.png)
 
+Abaixo seguem as telas que estarão disponíveis para os usuários.
+### 1 Tela de Login
 ![Tela de Login](img/telaLogin.png)
-![Tela de Cadastro de Usuario](img/telaCadastroUsuario.png)
-![Tela de Redefinição de Senha](img/telaRedefinicaoSenha.png)
+### 2 Home
 ![Tela Home](img/telaHome.png)
+### 3 Histórico de Consumo
 ![Tela de Historico de Consumo](img/telaHistoricoConsumo.png)
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+### 4 Cadastro de Usuário
+![Tela de Cadastro de Usuario](img/telaCadastroUsuario.png)
+### 5 Redefinição de Senha
+![Tela de Redefinição de Senha](img/telaRedefinicaoSenha.png)
