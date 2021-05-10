@@ -39,6 +39,18 @@ etiquetas:
 
 ## Gerenciamento de Projeto
 
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
+
+A equipe se junta semanalmente para realização das tarefas, para que assim todos tenham a oportunidade de desenvolver e de participar de toda a elaboração do projeto.
+
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub estruturado com as seguintes listas: 
+
+- *Product Backlog*: recebe as tarefas identificadas a serem trabalhadas no decorrer do projeto devem ser incorporadas nesta lista;
+- *To Do*: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando;
+- *Doing*: Quando uma tarefa tiver sido iniciada, ela é movida para cá;
+- *Done*: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+
+
 ### Divisão de Papéis
 
 Até o momento, devido à natureza preliminar do projeto, todos os integrantes participaram das atividades realizadas.
