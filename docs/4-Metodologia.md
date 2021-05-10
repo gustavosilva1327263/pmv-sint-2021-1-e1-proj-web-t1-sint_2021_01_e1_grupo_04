@@ -1,9 +1,19 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+A metodologia contempla a definição das ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização e execução do projeto.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A fim de fazer a gestão das atividades realizadas durante o projeto, inicialmente foi utilizado o Github, sobretudo a seção de Projetos. As reuniões foram realizadas no Microsoft Teams. Durante a parte inicial do projeto, todos os integrantes participaram da edição e criação da documentação, bem como da definição dos aspectos fundamentais do projeto.
+
+Além do Github e do Microsoft Teams, a equipe fez uso das plataformas Figma, para definição da interface, e Heroku.
+
+| AMBIENTE | PLATAFORMA | LINK DE ACESSO |
+|--------------------|------------------------------------|----------------------------------------|
+| Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_04 |
+| Gerenciamento do Projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_04 |
+| Projeto de Interface e  Wireframes | Figma | https://www.figma.com/file/9Boa8Aqql7JXRqbUMd2kur/Untitled?node-id=0%3A1 |
+| Documentos do projeto | Heroku | A definir |
+
 
 ## Controle de Versão
 
@@ -26,20 +36,12 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Até o momento, devido à natureza preliminar do projeto, todos os integrantes participaram das atividades realizadas.
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
