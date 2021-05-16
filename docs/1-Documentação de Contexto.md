@@ -1,46 +1,47 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Em se tratando do consumo de energia elétrica, pouco se sabe acerca do uso individualizado da rede elétrica e quais os custos envolvidos por problemas como uso de equipamentos ultrapassados e perda ou desvio de corrente elétrica. Essa falta de informação impede que medidas possam ser tomadas a fim de tornar mais eficiente o uso da energia elétrica, não somente no nível individual, mas coletivo também.
+
+Entre outros aspectos, dois serão trabalhados nesse projeto: (1) a aferição do consumo da energia elétrica e (2) a identificação dos diferentes aparelhos utilizados em uma residência e/ou empresa de maneira individualizada, que permita, entre outras coisas, maiores controle e fiscalização do consumo de energia, tornando a rede elétrica mais econômica e sustentável.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+No contrato de prestação de serviços entre as companhias elétricas e os consumidores existem algumas questões importantes. A primeira delas que será tratada neste projeto se dá no campo da aferição do consumo de energia elétrica. De maneira geral, a medição do consumo é crua e insuficiente, de modo que as informações aferidas não levam em consideração outros aspectos além da quantidade bruta de energia consumida. Essa insuficiência aponta para a segunda questão a ser tratada: apesar de o consumidor ter uma idéia geral de quais aparelhos consomem mais energia, não há como precisar informações detalhadas acerca da energia consumida pelos equipamentos. Em outras palavras, o consumidor não tem controle sobre esse consumo e tampouco informações detalhadas que possam lhe auxiliar na tomada de decisões sobre a utilização da eletricidade contratada.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Nesse sentido, a partir do desenvolvimento de uma aplicação, este projeto visa à precisão do consumo de energia elétrica indiviualizado, afim de permitir que os consumidores possam ter controle sobre o uso da energia que estão pagando. Como consequência, as empresas fornecedoras também ganham, porque uma vez que o consumo seja mais consciente, as tarifas podem diminuir e o consumo ilegal de energia elétrica também.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+### Objetivo Geral:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Desenvolver uma aplicação web capaz de identificar o consumo de energia elétrica de cada um dos aparelhos ligados à rede elétrica de uma casa, monitorando e detectando possíveis perdas ou desvios no consumo de energia residencial, trazendo ao usuário final uma redução de gastos através de um consumo consciente e sustentável.
+
+### Objetivos específicos:
+
+- Criar mecanismos de verificação, registro e controle do consumo de cada aparelho eletrônico conectado à corrente elétrica;
+
+- Criar um banco de dados onde serão transferidos  e armazenados todos os dados  de consumo de energia recebidos;
+
+- Desenvolver uma aplicação web que acesse o banco de dados e transmita as informações coletadas com segurança e em tempo real ao usuário final.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O desenvolvimento e execução do projeto se justificam pela ausência de tecnologia que possibilite a verificação, o registro e o controle do consumo de energia do ponto de vista individual. A criação de uma ferramenta capaz de verificar o consumo de energia elétrica de cada um dos aparelhos domésticos possibilita que, em primeira instância, o consumidor final crie métodos para reduzir o consumo, seja por simplesmente desligar os aparelhos, seja por escolher novos equipamentos que utilizem menos energia; e, em segunda instância, que as companhias elétricas identifiquem problemas de perda/desvio de energia.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Além disso, a criação de uma ferramenta nesse sentido pode servir de base para que, lançando mão dos dados gerados no aplicativo, governos e empresas criem políticas públicas para melhorar a produção e distribuição de energia elétrica numa determinada região.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+
+## Estado da Arte
+
+Até o período em que este projeto está sendo desenvolvido, não foram encontrados sistemas ou aplicativos comercializados voltados para o mesmo objeto, qual seja o monitoramento e controle do consumo de energia elétrica de maneira individualizada, sobretudo a nível de aparelhos e equipamentos eletrônicos.
+
+A fim de subsidiar os fundamentos teóricos necessários para o desenvolvimento do projeto, foi consultada bibliografia que trate do assunto. Existem algumas produções acadêmicas voltadas ao tema, das quais ressaltam-se os trabalhos de WAHLBRINCK (2018), SAMPAIO (2018) e OLIVEIRA (2017). Contudo, vale ressaltar que os três trabalhos citados necessitam diretamente do uso de um componente de hardware para que as informações sejam coletadas.
+
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O desenvolvimento desta aplicação web trará vantagens tanto ao consumidor quanto às companhias de energia elétrica. O consumidor final poderá se beneficiar por obter um conhecimento sobre quais aparelhos consomem mais energia e quais as melhores formas de reduzir esse consumo, trazendo assim uma economia ao consumidor. Já as companhias elétricas poderão verificar se o consumo de uma residência é compatível com o perfil do consumidor, podendo assim criar políticas a fim de reduzir as perdas ou até mesmo os desvios que possam existir na rede elétrica.

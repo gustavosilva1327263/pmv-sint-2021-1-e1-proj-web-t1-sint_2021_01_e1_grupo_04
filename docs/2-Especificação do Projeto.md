@@ -1,44 +1,118 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+De maneira geral, a medição do consumo é insuficiente, no sentido de que não identifica o consumo individualizado por aparelho de maneira precisa.
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo a imprecisão do consumo de energia elétrica indiviualizado, afim de permitir que os consumidores controlem o uso da energia que estão pagando.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+### Maria (Consumidora)
+<table border="1" width="800px">    
+ <tr> 
+  <th colspan="3"> <img src="https://medicina.ucpel.edu.br/wp-content/uploads/2020/07/apacucpel_ucpel_image_319-1024x960.jpeg" height="200" width="200"> 
+  <tr><th colspan="3"> Maria Silva</th> 
+ </tr>
+ <tr>
+  <td><b>Idade:</b> 28 </td>
+  <td><b>Ocupação:</b> Médica, responsável pela gestão financeira da casa.</td>
+  <td><b>Aplicativos mais usados</b><br>
+     ● Instagram<br>
+     ● Twitter</td>
+ </tr>
+  <tr>
+    <td><b>Motivações</b><br>
+      ● Poder entender o tanto que cada aparelho utiliza de energia.<br>
+      ● Saber quais horários o consumo de energia deve ser reduzido.
+    </td>
+    <td><b>Frustrações</b><br>
+      ● preocupada com as economias<br>
+      ●	em constante discussões com os outros membros da família em relação ao consumo de energia
+    </td>
+    <td><b>Hobbies, História</b><br>
+      ● 	Assistir filmes com a família<br>
+      ●  Viajar </td>
+ </tr>
+</table>
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+### Fabiana (Consumidora)
+
+<table border="1" width="800px">
+ <tr> 
+  <th colspan="3"> <img src="https://uploads.metropoles.com/wp-content/uploads/2020/04/10094941/Nina-Silva_200519_Luciana-Prezia-1024x683-1-600x400.jpg" height="200" width="200"> 
+  <tr><th colspan="3"> Fabiana Santos</th> 
+ </tr>
+ <tr>
+  <td><b>Idade:</b> 33 </td>
+  <td><b>Ocupação:</b> Gerente de uma fábrica de cosméticos</td>
+  <td><b>Aplicativos mais usados</b><br>
+     ● Instagram<br>
+     ● Twitter<br>
+     ● Pinterest</td>
+ </tr>
+  <tr>
+    <td><b>Motivações</b><br>
+      ● Diminuir os custos da sua empresa;<br>
+      ● Aumentar a eficiência da empresa e expandir o próprio mercado.
+    </td>
+    <td><b>Frustrações</b><br>
+      ● Equipamentos ruins ou com problemas<br>
+      ●	Não alcançar as metas da empresa
+    </td>
+    <td><b>Hobbies, História</b><br>
+      ● 	Cinema<br>
+      ●  Praia</td>
+ </tr>
+</table>
+
+
+### Evandro (Fornecedor)
+
+<table border="1" width="800px">
+ <tr> 
+  <th colspan="3"> <img src="https://opetroleo.com.br/wp-content/uploads/2016/07/engenheiro-eletricista.jpg" height="200" width="200"> 
+  <tr><th colspan="3"> Fabiana Santos</th> 
+ </tr>
+ <tr>
+  <td><b>Idade:</b> 45 </td>
+  <td><b>Ocupação:</b> Fiscal Técnico de uma concessionária</td>
+  <td><b>Aplicativos mais usados</b><br>
+     ● Facebook<br>
+     ● YouTube<br>
+     ● Clash of Clans (jogo de celular)</td>
+ </tr>
+  <tr>
+    <td><b>Motivações</b><br>
+      ● Acabar com perdas e desvios de energia elétrica;<br>
+      ● Melhorar a qualidade da distribuição de energia elétrica.
+    </td>
+    <td><b>Frustrações</b><br>
+      ● Desvios de energia (gatos)<br>
+      ●	Inadimplência
+    </td>
+    <td><b>Hobbies, História</b><br>
+      ● 	Sítio ou chácara<br>
+      ●  Comer</td>
+ </tr>
+</table>
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas forma identificadas as histórias de usuários abaixo:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Maria | Identificar o custo de cada aparelho eletrônico em tempo real | Economizar |
+|Maria | Consultar o consumo por aparelho | Identificar os aparelhos que mais consomem |
+|**Maria | Registrar os aparelhos eletrônicos | Identificar e controlar o custo de cada aparelho**|
+|Fabiana | Consultar o histórico de consumo de energia total (kWh) | Controlar o consumo ao longo do tempo |
+|Fabiana | Consultar o consumo diário, semanal e mensal | Identificar os períodos de maior consumo |
+|**Fabiana | Agrupar equipamentos para controle por cômodo/setor | Identificar onde mais se consome**  |
+|**Fabiana | Agrupar equipamentos para controle por tipo/natureza | Identificar onde mais se consome**  |
+|Evandro | Identificar os casos de perda/desvio de energia elétrica | Reduzir o prejuízo |
+|Evandro | Consultar a média de consumo por região | Identificar casos de consumo atípicos (mais altos ou mais baixos) |
+|Evandro | Consultar os dados e o consumo de cada usuário | Identificar os consumidores |
 
 ## Requisitos
 
@@ -48,31 +122,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| Consultar o consumo de energia por aparelho | ALTA |
+|RF-002| Emitir relatório de consumo por período (dia, semana, mês, ano) | MÉDIA |
+|RF-003| Identificar aparelhos com maior consumo | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O sistema deve fornecer as informações em tempo real | ALTA |
+|RNF-002| O sistema deve ser responsivo para rodar em um dispositivo móvel | MÉDIA |
 
 ## Restrições
 
