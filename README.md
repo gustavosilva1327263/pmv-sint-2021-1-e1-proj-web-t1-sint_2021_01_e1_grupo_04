@@ -1,24 +1,25 @@
 # TÍTULO DO PROJETO
 
-`Sistemas para internet`
+`CURSO`
 
-`Projeto: Aplicações Web`
+`DISCIPLINA`
 
-`Primeiro Semestre`
+`SEMESTRE`
 
 ## Integrantes
 
-- Alan Alves
-- Ana Luiza Lisboa do Nascimento 
+- Obi-Wan Kenobi 
+- Anakin Skywalker
+- Victor Luygg
+- Ana Luiza Lisboa do Nascimento
 - Gustavo Silva
-- Sabrina Gonzaga
-- Victor Luygg de Melo Santos
 
 ## Professor
 
-- Fabiano Costa Teixeira.
+- Mestre Yoda
 
 # Documentação
+
 <ol>
 <li><a href="docs/1-Documentação de Contexto.md"> Documentação de Contexto</a></li>
 <li><a href="docs/2-Especificação do Projeto.md"> Especificação do Projeto</a></li>
