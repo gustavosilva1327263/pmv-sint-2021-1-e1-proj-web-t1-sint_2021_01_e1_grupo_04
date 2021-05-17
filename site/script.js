@@ -1,4 +1,4 @@
-function cadastro() {
+function entrar() {
     var login = document.getElementById('login').value;
     var senha = document.getElementById('senha').value;
     if (login == "alunopuc" & senha == "123") {
