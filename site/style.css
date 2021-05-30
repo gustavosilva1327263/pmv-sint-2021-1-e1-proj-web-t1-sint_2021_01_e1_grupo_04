@@ -1,35 +1,183 @@
-h1{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-title{
-    color: white;
+
+body {
+    background-color: #DBDBDB;
+    height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
-div{
-    position: absolute;
+
+main {
+    background-color: #005EAE;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #002867;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.container form {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container form input {
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    margin: 8px 0;
+    padding: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container form div.novaSenha {
+    box-sizing: border-box;
+    width: 300px;
+    height: 20px;
+    text-align: right;
+}
+
+.container form div.novaSenha a {
+    color: #C3BCB3;
+    text-decoration: none;
+}
+
+.container form p {
+    width: 300px;
+    color: white;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
     text-align: center;
-    left: 45%;
-    top: 20%;
 }
-body{
+
+.container button {
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    height: 50px;
+    background-color: #C3BCB3;
+    color: #002867;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.separador {
+    color: #C3BCB3;
+}
+
+.redefinirForm {
+    height: 400px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Tela de Enviar Link */
+/* .forgetForm {
+    height: 400px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.forgetForm p {
     color: white;
-    align-content: center;
-    vertical-align: center;
-    margin: 0px;
-    padding: 100px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    text-align: center;
 }
 
-a{
-    color: white;
+.forgetForm-Camp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-input{
-    background-color: white;
+.forgetForm-Camp input {
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    margin: 8px 0;
+    padding: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
+/*Tela de Redefinir Senha */
+/* .redefinirForm {
+    height: 400px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-button{
-    background-color: white;
+.redefinirForm-Camp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-*{
-    background-color: #005eae;
+
+.redefinirForm-Camp input {
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.redefinirForm button{
+    margin: 40px;
+} */
