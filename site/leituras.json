@@ -1,0 +1,12 @@
+{
+    "leituraId": "123456",
+    "data": "30/05/2021",
+    "consumidorId": "987654",
+    "tensao": 220,
+    "leituras": [
+        {"horario": "18:00", "corrente": 0},
+        {"horario": "18:05", "corrente": 0},
+        {"horario": "18:10", "corrente": 0},
+        {"horario": "18:15", "corrente": 0}
+    ]
+}

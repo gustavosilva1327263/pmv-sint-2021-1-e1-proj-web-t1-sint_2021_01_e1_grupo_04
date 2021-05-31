@@ -119,65 +119,56 @@ main {
     align-items: center;
 }
 
-/* Tela de Enviar Link */
-/* .forgetForm {
-    height: 400px;
-    margin: 50px 0;
+/* Home */
+header {
+    background-color: #002867;
+    height: 80px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
-.forgetForm p {
-    color: white;
-    font-size: 18px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    text-align: center;
+header .logo {
+    float: left;
+    height: 80px;
+    width: auto;
+    margin: 0 20px;
 }
 
-.forgetForm-Camp {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+header .tittle {
+    font-size: 20px;
 }
 
-.forgetForm-Camp input {
+.container-consumo {
+    background-color: #DBDBDB;
     box-sizing: border-box;
-    border-radius: 5px;
-    width: 300px;
-    height: 40px;
-    margin: 8px 0;
-    padding: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-} */
-
-/*Tela de Redefinir Senha */
-/* .redefinirForm {
-    height: 400px;
-    margin: 50px 0;
+    width: 100%;
+    max-width: 600px;
+    min-height: 800px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
 }
 
-.redefinirForm-Camp {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.consumoTotal {
+    margin: 0px 20px;
+    height: 100px;
+    font-size: 30px;
 }
 
-.redefinirForm-Camp input {
-    box-sizing: border-box;
-    border-radius: 5px;
-    width: 300px;
-    height: 40px;
-    margin: 10px 0;
-    padding: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#leitura {
+    font-size: 35px;
+    font-weight: bold;
 }
 
-.redefinirForm button{
-    margin: 40px;
-} */
+.consumoTable {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.consumoTable td, .consumoTable th {
+    border: 1px solid black;
+    padding: 5px;
+}
