@@ -23,9 +23,15 @@ function registerUser() {
 }
 
 function newUser() {
-    
+    alert('Cadastrado com sucesso!');
+    window.location.href = 'index.html';
 }
 
 function registerItem() {
-    window.location.href = 'registerItem.html';
+    window.location.href = 'newEquipament.html';
+}
+
+function newItem() {
+    alert('Cadastrado com sucesso!');
+    window.location.href = 'equipaments.html';
 }
