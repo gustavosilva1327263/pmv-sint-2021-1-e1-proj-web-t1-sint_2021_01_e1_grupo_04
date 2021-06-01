@@ -20,6 +20,7 @@ main {
     height: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .container {
@@ -91,13 +92,14 @@ main {
     text-align: center;
 }
 
-.container button {
+button {
     box-sizing: border-box;
     border-radius: 5px;
     border: 0;
     margin: 0;
     padding: 0;
-    width: 180px;
+    width: auto;
+    min-width: 180px;
     height: 50px;
     background-color: #C3BCB3;
     color: #002867;
@@ -124,6 +126,7 @@ header {
     background-color: #002867;
     height: 80px;
     display: flex;
+    justify-content: space-between;
 }
 
 header .logo {
@@ -137,17 +140,31 @@ header .tittle {
     font-size: 20px;
 }
 
+header .menu {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu div {
+    width: 35px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 2px 0;
+}
+
 .container-consumo {
     background-color: #DBDBDB;
     box-sizing: border-box;
     width: 100%;
     max-width: 600px;
-    min-height: 800px;
+    height: 100%;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
-    /* align-items: center; */
 }
 
 .consumoTotal {
@@ -164,11 +181,20 @@ header .tittle {
 .consumoTable {
     border-collapse: collapse;
     width: 100%;
-    text-align: left;
+    text-align: center;
     margin: 20px 0;
 }
 
 .consumoTable td, .consumoTable th {
     border: 1px solid black;
     padding: 5px;
+}
+
+.registerItem-button {
+    background-color: #005EAE;
+    margin: 20px 0;
+}
+
+.cadastrarForm-Camp span {
+    color: white;
 }

@@ -19,5 +19,13 @@ function resetPassword(){
 }
 
 function registerUser() {
-    window.location.href = 'register.html';
+    window.location.href = 'registerUser.html';
+}
+
+function newUser() {
+    
+}
+
+function registerItem() {
+    window.location.href = 'registerItem.html';
 }
