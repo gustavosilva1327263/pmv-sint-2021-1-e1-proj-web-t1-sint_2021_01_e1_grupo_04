@@ -1,0 +1,10 @@
+{
+    "equipamentos": [
+        {"nome": "Chuveiro", "potencia": 5500},
+        {"nome": "Condicionador de Ar", "potencia": 1430},
+        {"nome": "SmartTv", "potencia": 150},
+        {"nome": "Lava-Roupas", "potencia": 1100},
+        {"nome": "Ventilador", "potencia": 50},
+        {"nome": "Lâmpada", "potencia": 100}
+    ]
+}

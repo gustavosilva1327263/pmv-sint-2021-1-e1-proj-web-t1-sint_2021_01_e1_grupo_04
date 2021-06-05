@@ -6,7 +6,7 @@
     <script src="script.js"></script>
   </head>
 
-  <body>
+  <body onload="listarEquipamentos()">
     <header>
       <div class="logo">
         <h1 class="tittle">MeuMedidor</h1>
@@ -22,32 +22,13 @@
     <main>
       <div class="container-consumo">
 
-        <table class="consumoTable">
+        <table class="consumoTable" id="listaEquipamentos">
             <tr>
                 <th>Equipamento</th>
                 <th>Consumo (W/h)</th>
                 <!-- <th>Consumo (R$)</th> -->
             </tr>
-            <tr>
-                <td>Chuveiro</td>
-                <td>5500</td>
-            </tr>
-            <tr>
-                <td>Ar Condicionado</td>
-                <td>1400</td>
-            </tr>
-            <tr>
-                <td>SmartTV</td>
-                <td>150</td>
-            </tr>
-            <tr>
-                <td>Lava-roupas</td>
-                <td>1000</td>
-            </tr>
-            <tr>
-                <td>Ventilador</td>
-                <td>50</td>
-            </tr>
+            <!-- Os itens são adicionados via script a partir do localStorage -->
         </table>
         
         <button class="registerItem-button" onclick="registerItem()">Novo Equipamento</button>

@@ -6,7 +6,7 @@
     <script src="script.js"></script>
   </head>
 
-  <body>
+  <body onload="showLeitura()">
     <header>
       <div class="logo">
         <h1 class="tittle">MeuMedidor</h1>
@@ -22,27 +22,16 @@
     <main>
       <div class="container-consumo">
         <div class="consumoTotal">
-          <p>Corrente Elétrica: <span id="leitura">7,4</span> kW/h</p>
+          <!-- <p>Corrente Elétrica: <span id="leitura">7,4</span> kW/h</p> -->
+
         </div>
 
-        <table class="consumoTable">
+        <table class="consumoTable" id="listaLeituras">
             <tr>
-                <th>Equipamento</th>
-                <th>Consumo (W/h)</th>
+                <th>Equipamento(s) ligados(s)</th>
                 <!-- <th>Consumo (R$)</th> -->
             </tr>
-            <tr>
-                <td>Chuveiro</td>
-                <td>5500</td>
-            </tr>
-            <tr>
-                <td>Ar Condicionado</td>
-                <td>1400</td>
-            </tr>
-            <tr>
-                <td>Geladeira</td>
-                <td>500</td>
-            </tr>
+            
         </table>
         
       </div>
