@@ -35,42 +35,67 @@ function registerItem() {
 }
 
 function listarEquipamentos() {
-  let listaEquipamentos = JSON.parse(localStorage.getItem("equipamentos")).equipamentos;
+  let listaEquipamentos = JSON.parse(
+    localStorage.getItem("equipamentos")
+  ).equipamentos;
   for (let i = 0; i < listaEquipamentos.length; i++) {
     document.getElementById("listaEquipamentos").innerHTML +=
-      "<tr><td>" + listaEquipamentos[i].nome + "</td><td>" + listaEquipamentos[i].potencia + "</td></tr>";
+      "<tr><td>" +
+      listaEquipamentos[i].nome +
+      "</td><td>" +
+      listaEquipamentos[i].potencia +
+      "</td></tr>";
   }
 }
 
 function showLeitura() {
-    let leitura = JSON.parse(localStorage.getItem("leituras"));
-    console.log(leitura)
-    let tensao = 220;
-    let listaEquipamentos = JSON.parse(localStorage.getItem("equipamentos")).equipamentos;
-    let potenciaAnterior = 0;
+  let leitura = JSON.parse(localStorage.getItem("leituras"));
+  console.log(leitura);
+  let tensao = 220;
+  let listaEquipamentos = JSON.parse(
+    localStorage.getItem("equipamentos")
+  ).equipamentos;
+  let potenciaAnterior = 0;
 
-    for (let i = 0; i < leitura.leituras.length; i++) {
-        let horario = leitura.leituras[i].horario;
-        let corrente = leitura.leituras[i].corrente;
-        let potenciaAtual = tensao * corrente;
-        let diferencaPotencia = potenciaAtual - potenciaAnterior;
-        console.log(horario, corrente, potenciaAtual, potenciaAnterior, diferencaPotencia)
-        for (let j = 0; j < listaEquipamentos.length; j++) {
-            if (diferencaPotencia == listaEquipamentos[j].potencia) {
-            document.getElementById("listaLeituras").innerHTML += "<tr><td>" +
-                listaEquipamentos[j].nome +
-                " foi ligado as " +
-                horario + "</td></tr>";
-            } else {
-                if (-diferencaPotencia == listaEquipamentos[j].potencia) {
-                    document.getElementById("listaLeituras").innerHTML += "<tr><td>" +
-                    listaEquipamentos[j].nome +
-                    " foi desligado as " +
-                    horario + "</td></tr>";}
-            }
+  for (let i = 0; i < leitura.leituras.length; i++) {
+    let horario = leitura.leituras[i].horario;
+    let corrente = leitura.leituras[i].corrente;
+    let potenciaAtual = tensao * corrente;
+    let diferencaPotencia = potenciaAtual - potenciaAnterior;
+    console.log(
+      horario,
+      corrente,
+      potenciaAtual,
+      potenciaAnterior,
+      diferencaPotencia
+    );
+    for (let j = 0; j < listaEquipamentos.length; j++) {
+      if (diferencaPotencia == listaEquipamentos[j].potencia) {
+        document.getElementById("listaLeituras").innerHTML +=
+          "<tr><td>" +
+          listaEquipamentos[j].nome +
+          " foi ligado as " +
+          horario +
+          "</td>" +
+          "<td>" +
+          potenciaAtual +
+          " kW/h </td></tr>";
+      } else {
+        if (-diferencaPotencia == listaEquipamentos[j].potencia) {
+          document.getElementById("listaLeituras").innerHTML +=
+            "<tr><td>" +
+            listaEquipamentos[j].nome +
+            " foi desligado as " +
+            horario +
+            "</td>" +
+            "<td>" +
+            potenciaAtual +
+            " kW/h </td></tr>";
         }
-        potenciaAnterior = potenciaAtual;
+      }
     }
+    potenciaAnterior = potenciaAtual;
+  }
 }
 
 function newItem() {
