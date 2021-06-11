@@ -1,0 +1,24 @@
+{
+    "usuarios": [
+        {
+            "name": "Victor",
+            "lastname": "Luygg",
+            "login": 123456789,
+            "senha": "123123",
+            "id": 123456,
+            "email": "victor@puc.com",
+            "phone": 82999887766,
+            "adress": "Rua A21, 314"
+        },
+        {
+            "name": "Gustavo",
+            "lastname": "Silva",
+            "login": 987654321,
+            "senha": "234234",
+            "id": 987654,
+            "email": "gustavo@puc.com",
+            "phone": 12999001122,
+            "adress": "Av. Principal, 1090"
+        }
+    ]
+}

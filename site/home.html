@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-  </head>
+</head>
 
-  <body onload="showLeitura()">
+<body onload="showLeitura()">
     <header>
-      <div class="logo">
-        <h1 class="tittle">MeuMedidor</h1>
-      </div>
+        <div class="logo">
+            <h1 class="tittle">MeuMedidor</h1>
+        </div>
 
-      <div class="menu">
-          <div></div>
-          <div></div>
-          <div></div>
-      </div>
+        <div class="menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </header>
 
     <main>
-      <div class="container-consumo">
-        <div class="consumoTotal">
-          <!-- <p>Corrente Elétrica: <span id="leitura">7,4</span> kW/h</p> -->
+        <div class="container-consumo">
+            <div class="consumoTotal" id="home-user">
+                <!-- <p>Corrente Elétrica: <span id="leitura">7,4</span> kW/h</p> -->
+
+            </div>
+
+            <table class="consumoTable" id="listaLeituras">
+                <tr>
+                    <th>Equipamento(s) ligados(s)</th>
+                    <th>Consumo</th>
+                </tr>
+
+            </table>
 
         </div>
 
-        <table class="consumoTable" id="listaLeituras">
-            <tr>
-                <th>Equipamento(s) ligados(s)</th>
-                <th>Consumo</th>
-            </tr>
-            
-        </table>
-        
-      </div>
-
     </main>
-  </body>
+</body>
+
 </html>

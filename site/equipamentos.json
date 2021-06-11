@@ -1,10 +1,16 @@
 {
     "equipamentos": [
-        {"nome": "Chuveiro", "potencia": 5500},
-        {"nome": "Condicionador de Ar", "potencia": 1430},
-        {"nome": "SmartTv", "potencia": 150},
-        {"nome": "Lava-Roupas", "potencia": 1100},
-        {"nome": "Ventilador", "potencia": 50},
-        {"nome": "Lâmpada", "potencia": 100}
+        { "nome": "Chuveiro", "potencia": 5500 },
+        { "nome": "Condicionador de Ar", "potencia": 1430 },
+        { "nome": "SmartTv", "potencia": 154 },
+        { "nome": "Lava-Roupas", "potencia": 1100 },
+        { "nome": "Ventilador", "potencia": 66 },
+        { "nome": "Lâmpada", "potencia": 11 }
     ]
 }
+// Chuveiro: 25;
+// Ar: 6,5;
+// tv: 0,7;
+// lava-roupas: 5;
+// ventilador: 0,3;
+// lampada: 0,05
