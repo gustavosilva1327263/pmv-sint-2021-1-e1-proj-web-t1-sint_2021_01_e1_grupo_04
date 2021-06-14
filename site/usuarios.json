@@ -1,0 +1,44 @@
+{
+    "usuarios": [
+        {
+            "id": "123456",
+            "name": "gustavo",
+            "email": "gustavo@puc.com",
+            "phone": "1299992222",
+            "login": "gustavopuc",
+            "password": "123"
+        },
+        {
+            "id": 445566,
+            "name": "victor",
+            "email": "victor@puc.com",
+            "phone": "123124",
+            "login": "victorpuc",
+            "password": "123"
+        },
+        {
+            "id": 2,
+            "name": "fabiano",
+            "email": "fabiano@puc.com",
+            "phone": "0000000",
+            "login": "fabianoPuc",
+            "password": "123"
+        },
+        {
+            "id": 3,
+            "name": "teste",
+            "email": "teste@puc.com",
+            "phone": "999999999",
+            "login": "testepuc",
+            "password": "123"
+        },
+        {
+            "id": 4,
+            "name": "teste2",
+            "email": "teste@puc.com2",
+            "phone": "222222",
+            "login": "testepuc2",
+            "password": "123"
+        }
+    ]
+}
