@@ -72,7 +72,7 @@ Nesse sentido, o problema a ser resolvido neste projeto foi definido como sendo 
 <table border="1" width="800px">
  <tr> 
   <th colspan="3"> <img src="https://opetroleo.com.br/wp-content/uploads/2016/07/engenheiro-eletricista.jpg" height="200" width="200"> 
-  <tr><th colspan="3"> Fabiana Santos</th> 
+  <tr><th colspan="3">Evandro</th> 
  </tr>
  <tr>
   <td><b>Idade:</b> 45 </td>
