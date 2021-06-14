@@ -31,7 +31,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 |--------------------|------------------------------------|
 | Requisitos Associados | RF-001 - Vincular a leitura da corrente elétrica ao usuário logado |
 | Objetivo do Teste | Verificar se o login é feito com sucesso, vinculando a leitura ao usuário |
-| Passos | 1. Acessar a página index.html; 2. Informar o login "123456789" e a senha "123123"; 3. Clicar em "Entrar" |
+| Passos | 1. Acessar a página index.html;
+2. Informar o login "123456789" e a senha "123123";
+3. 3. Clicar em "Entrar" |
 | Critérios de êxito | ● O usuário deve acessar a página home.html, onde deve conter a saudação "Bem vindo, Victor"; ● A leitura deve mostrar os aparelhos e as horas em que foram ligados ou desligados. |
 
 
