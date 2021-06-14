@@ -23,14 +23,6 @@
         {
             "nome": "Lâmpada",
             "potencia": 11
-        },
-        {
-            "nome": "tv",
-            "potencia": "100"
-        },
-        {
-            "nome": "lampada",
-            "potencia": "10"
         }
     ]
 }
