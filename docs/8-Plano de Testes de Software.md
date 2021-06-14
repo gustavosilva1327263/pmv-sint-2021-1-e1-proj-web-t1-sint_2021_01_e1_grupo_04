@@ -3,8 +3,7 @@
 O processo de realização dos testes da solução desenvolvida está documentado na seção que se segue e traz os planos de testes de software e de usabilidade, na sequência, o registro dos testes realizados.
 
 Requisitos para realização do teste:
-• Site publicado na Internet
-• Navegador da Internet - Chrome, Firefox ou Edge
+• Navegador da Internet - Chrome, Firefox ou Edge;
 • Conectividade de Internet para acesso às plataformas (APISs)
 
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
