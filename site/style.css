@@ -111,6 +111,11 @@ button {
     cursor: pointer;
 }
 
+.buttonHistory{
+    font-size: 20px;
+}
+
+
 .separador {
     color: #C3BCB3;
 }
@@ -170,6 +175,11 @@ header .menu div {
     flex-direction: column;
 }
 
+.divLeitura{
+    margin: 20px auto;
+
+}
+
 .consumoTotal {
     margin: 0px 20px;
     height: 100px;
@@ -193,6 +203,10 @@ header .menu div {
     padding: 5px;
 }
 
+.buttonLeitura {
+   size: 10px; 
+    font-size: 20px;
+}
 .registerItem-button {
     background-color: #005EAE;
     margin: 20px 0;

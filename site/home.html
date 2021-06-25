@@ -6,7 +6,7 @@
 
 </head>
 
-<body onload="showLeitura()">
+<body>
     <header>
         <div class="logo">
             <h1 class="tittle">MeuMedidor</h1>
@@ -26,18 +26,21 @@
 
         </div>
         <table id="listaConsumo" class="consumoTable">
-                <thead id="tHead">
-                   
-                        <tr>
-                            <th>Equipamento</th>
-                            <th>Consumo</th>
-                        </tr>
-                   
-                </thead>
-        
-                
-            </table>
+            <thead id="tHead">
+
+                <tr>
+                    <th>Equipamento</th>
+                    <th>Consumo</th>
+                </tr>
+
+            </thead>
+
+
+        </table>
+        <div class="divLeitura">
+            <button onclick="proximaLeitura()" class="buttonLeitura" style="  display: inline-block">></button>
         </div>
+    </div>
 </main>
 
 </body>
