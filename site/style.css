@@ -215,3 +215,36 @@ header .menu div {
 .cadastrarForm-Camp span {
     color: white;
 }
+
+
+
+.mainmenubtn {
+    margin: 20px;
+    width: 35px;
+    border-radius: 5px;
+    height: 3px;
+    background-color: white;
+    margin: 2px 0;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color:white ;
+    min-width: 130px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}

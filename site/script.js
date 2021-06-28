@@ -137,68 +137,68 @@ function showUser() {
 }
 
 
-// function showLeitura() {
-//     showUser();
+function showLeitura() {
+    showUser();
 
-//     // Primeiro definir a posição na array leituras, p/ vincular ao usuario
-//     let consumidorToken;//
-//     var user = getUser();
-//     let leituras = JSON.parse(localStorage.getItem("leituras")).leituras;
+    // Primeiro definir a posição na array leituras, p/ vincular ao usuario
+    let consumidorToken;//
+    var user = getUser();
+    let leituras = JSON.parse(localStorage.getItem("leituras")).leituras;
 
-//     for (let i = 0; i < leituras.length; i++) {
-//         if (user.id == leituras[i].consumidorId) {
-//             consumidorToken = i;
-//             break;
-//         }
-//     }
+    for (let i = 0; i < leituras.length; i++) {
+        if (user.id == leituras[i].consumidorId) {
+            consumidorToken = i;
+            break;
+        }
+    }
 
-//     // Segundo listar os equipamentos referente ao usuario usando o 'consumidorToken'
-//     let leitura = leituras[consumidorToken].leituras; // Lista a leitura do usuario
-//     let listaEquipamentos = JSON.parse(
-//         localStorage.getItem("equipamentos")
-//     ).equipamentos; // Lista os equipamentos
-//     let tensao = 220;
-//     let potenciaAnterior = 0;
+    // Segundo listar os equipamentos referente ao usuario usando o 'consumidorToken'
+    let leitura = leituras[consumidorToken].leituras; // Lista a leitura do usuario
+    let listaEquipamentos = JSON.parse(
+        localStorage.getItem("equipamentos")
+    ).equipamentos; // Lista os equipamentos
+    let tensao = 220;
+    let potenciaAnterior = 0;
 
-//     for (let i = 0; i < leitura.length; i++) {//Percorre o vetor de chaves e para cada chave encontrada, executa o código abaixo
-//         let horario = leitura[i].horario;
-//         let corrente = leitura[i].corrente;
-//         let potenciaAtual = tensao * corrente;
-//         let diferencaPotencia = potenciaAtual - potenciaAnterior;
-//         let linha = document.createElement("tr"); //Cria um novo elemento TR (linha)
-//         let coluna = document.createElement("td"); //Cria um novo elemento TD (celula de dados) 
-//         console.log(horario + "   " + diferencaPotencia + " pa:" + potenciaAtual + "potant" + potenciaAnterior);
+    for (let i = 0; i < leitura.length; i++) {//Percorre o vetor de chaves e para cada chave encontrada, executa o código abaixo
+        let horario = leitura[i].horario;
+        let corrente = leitura[i].corrente;
+        let potenciaAtual = tensao * corrente;
+        let diferencaPotencia = potenciaAtual - potenciaAnterior;
+        let linha = document.createElement("tr"); //Cria um novo elemento TR (linha)
+        let coluna = document.createElement("td"); //Cria um novo elemento TD (celula de dados) 
+        console.log(horario + "   " + diferencaPotencia + " pa:" + potenciaAtual + "potant" + potenciaAnterior);
 
-//         for (let j = 0; j < listaEquipamentos.length; j++) {
-//             // console.log(index);
-//             if (diferencaPotencia == listaEquipamentos[j].potencia) {
-//                 equipamento = listaEquipamentos[j].nome;
+        for (let j = 0; j < listaEquipamentos.length; j++) {
+            // console.log(index);
+            if (diferencaPotencia == listaEquipamentos[j].potencia) {
+                equipamento = listaEquipamentos[j].nome;
 
-//                 coluna = document.createElement("td");
-//                 coluna.innerHTML += listaEquipamentos[j].nome + " foi ligado as " + horario;
-//                 // console.log(listaEquipamentos[index].nome + " foi ligado as " + horario)
-//                 linha.appendChild(coluna);
-//                 coluna = document.createElement("td");
-//                 coluna.innerHTML += potenciaAtual + " W/h"
-//                 linha.appendChild(coluna);
-//             } else if (-diferencaPotencia == listaEquipamentos[j].potencia) {
-//                 coluna = document.createElement("td"); //Cria um novo elemento TD
-//                 coluna.innerHTML += listaEquipamentos[j].nome + " foi desligado as " + horario;
-//                 linha.appendChild(coluna);
-//                 coluna = document.createElement("td");
-//                 coluna.innerHTML += potenciaAtual + " W/h";
-//                 linha.appendChild(coluna);
+                coluna = document.createElement("td");
+                coluna.innerHTML += listaEquipamentos[j].nome + " foi ligado as " + horario;
+                // console.log(listaEquipamentos[index].nome + " foi ligado as " + horario)
+                linha.appendChild(coluna);
+                coluna = document.createElement("td");
+                coluna.innerHTML += potenciaAtual + " W/h"
+                linha.appendChild(coluna);
+            } else if (-diferencaPotencia == listaEquipamentos[j].potencia) {
+                coluna = document.createElement("td"); //Cria um novo elemento TD
+                coluna.innerHTML += listaEquipamentos[j].nome + " foi desligado as " + horario;
+                linha.appendChild(coluna);
+                coluna = document.createElement("td");
+                coluna.innerHTML += potenciaAtual + " W/h";
+                linha.appendChild(coluna);
 
-//             }
+            }
 
-//             potenciaAnterior = potenciaAtual;
-//         }
+            potenciaAnterior = potenciaAtual;
+        }
 
-//         console.log(potenciaAtual);
-//         console.log(potenciaAnterior);
-//         document.getElementById("listaConsumo").appendChild(linha);
-//     }
-// }
+        console.log(potenciaAtual);
+        console.log(potenciaAnterior);
+        document.getElementById("listaConsumo").appendChild(linha);
+    }
+}
 
 function goHome() {
     window.location.href = "index.html";
