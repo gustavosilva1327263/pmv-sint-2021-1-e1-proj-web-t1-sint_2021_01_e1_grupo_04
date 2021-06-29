@@ -15,6 +15,7 @@ function setUser(obj) {
     let user = JSON.stringify(obj); // Transforma o objeto em string
     localStorage.setItem("user", user); // Usa a string como parâmetro para setar o JSON
 }
+
 function validateUser() {
     let usuarios = JSON.parse(localStorage.getItem("usuarios")).usuarios;
     let login = document.getElementById("login").value;
@@ -22,14 +23,13 @@ function validateUser() {
     let user = { id: undefined, nome: "" };
     for (let i = 0; i < usuarios.length; i++) {
         if (login == "admin" && senha == "admin") {
-            window.location.href = "newItem.html";
+            window.location.href = "newEquipament.html";
         }
         if (login == usuarios[i].login) {
             user.id = usuarios[i].id;
             user.nome = usuarios[i].name;
             if (senha == usuarios[i].password) {
                 setUser(user);
-                console.log(getUser());
                 window.location.href = "home.html";
             } else {
                 alert("Senha incorreta!");
@@ -37,7 +37,7 @@ function validateUser() {
             break;
         }
     }
-    if (user.id === undefined) {
+    if (user.id === undefined && login !== "admin") {
         alert("Usuario não cadastrado!");
     }
 }

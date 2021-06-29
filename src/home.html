@@ -6,7 +6,7 @@
     <script src="./scripts/home.js"></script>
 </head>
 
-<body onload="showLeitura()">
+<body onload="showUser()">
     <header>
         <div class="logo">
             <h1 class="tittle">MeuMedidor</h1>
@@ -22,21 +22,21 @@
 </body>
 <main>
     <div class="container-consumo" id="divEquipamentos">
-        <div class="consumoTotal" id="home-user">
+        <div class="consumoTotal" id="home-user"></div>
 
-        </div>
-        <table class="consumoTable" id="listaConsumo">
+        <table id="listaConsumo" class="consumoTable">
             <thead id="tHead">
-
                 <tr>
                     <th>Equipamento</th>
                     <th>Consumo</th>
                 </tr>
-
             </thead>
-
-
         </table>
+
+        <div class="divLeitura">
+            <button onclick="proximaLeitura()" class="buttonLeitura" style="  display: inline-block">></button>
+        </div>
+
     </div>
 </main>
 
