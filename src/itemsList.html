@@ -1,15 +1,16 @@
-<!DOCTYPE html>
+<html>
 
 <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/itemsList.css">
+    <script src="./scripts/itemsList.js"></script>
 </head>
 
-<body onload="showLeitura()">
+<body onload="displayProducts()">
+
     <header>
         <div class="logo">
-            <h1 class="tittle">MeuMedidor</h1>
+            <h1 class="tittle" onclick="goHome()">MeuMedidor</h1>
         </div>
 
         <div class="menu">
@@ -22,9 +23,7 @@
 </body>
 <main>
     <div class="container-consumo" id="divEquipamentos">
-        <div class="consumoTotal" id="home-user">
 
-        </div>
         <table id="listaConsumo" class="consumoTable">
             <thead id="tHead">
 
@@ -37,7 +36,16 @@
 
 
         </table>
+        <!-- <button class="registerItem-button" onclick="newItem()">Novo Equipamento</button> -->
     </div>
+
+
+
+    <!-- <div id="divEquipamentos">
+            </div>
+            
+    
+          </div> -->
 </main>
 
 </body>
