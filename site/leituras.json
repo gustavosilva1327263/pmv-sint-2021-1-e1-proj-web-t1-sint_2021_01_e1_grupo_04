@@ -5,11 +5,24 @@
             "data": "30/05/2021",
             "consumidorId": "123456",
             "tensao": 220,
+            "admin": true,
             "leituras": [
-                { "horario": "18:00", "corrente": 5 },
-                { "horario": "18:05", "corrente": 30 },
-                { "horario": "18:10", "corrente": 25 },
-                { "horario": "18:15", "corrente": 0 }
+                {
+                    "horario": "18:00",
+                    "corrente": 5
+                },
+                {
+                    "horario": "18:05",
+                    "corrente": 30
+                },
+                {
+                    "horario": "18:10",
+                    "corrente": 25
+                },
+                {
+                    "horario": "18:15",
+                    "corrente": 0
+                }
             ]
         },
         {
@@ -18,10 +31,22 @@
             "consumidorId": "445566",
             "tensao": 220,
             "leituras": [
-                { "horario": "18:00", "corrente": 0.05 },
-                { "horario": "18:05", "corrente": 25.05 },
-                { "horario": "18:10", "corrente": 0.05 },
-                { "horario": "18:15", "corrente": 0.75 }
+                {
+                    "horario": "18:00",
+                    "corrente": 0.05
+                },
+                {
+                    "horario": "18:05",
+                    "corrente": 25.05
+                },
+                {
+                    "horario": "18:10",
+                    "corrente": 0.05
+                },
+                {
+                    "horario": "18:15",
+                    "corrente": 0.75
+                }
             ]
         }
     ]
