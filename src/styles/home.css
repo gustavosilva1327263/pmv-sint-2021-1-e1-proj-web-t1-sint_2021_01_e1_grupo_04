@@ -43,37 +43,39 @@ main {
 
 header {
     background-color: #002867;
+    color: white;
     height: 80px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header .logo {
     float: left;
     height: 80px;
-    width: auto;
+    width: 200px;
     margin: 0 20px;
-    cursor: pointer;
 }
 
 header .tittle {
     font-size: 20px;
 }
 
-header .menu {
-    margin: 0 10px;
+.navbar ul {
+    width: 400px;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
+    list-style: none;
 }
 
-header .menu div {
-    width: 35px;
-    border-radius: 5px;
-    height: 3px;
-    background-color: white;
-    margin: 2px 0;
+.navbar a {
+    text-decoration: none;
+    color: white;
 }
 
 .container-consumo {
