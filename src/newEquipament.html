@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/newEquipament.css">
+    <script src="./scripts/newEquipament.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <div class="logo">
+                <h1 class="tittle">MeuMedidor</h1>
+            </div>
+
+            <form class="cadastrarForm">
+
+                <p>Preencha os campos a seguir:</p>
+
+                <div class="cadastrarForm-Camp">
+                    <span>Equipamento</span>
+                    <label for="equipamento">
+                        <input type="text" id="equipamento" name="equipamento">
+                    </label>
+                </div>
+
+                <div class="cadastrarForm-Camp">
+                    <span>Potência (kW/h)</span>
+                    <label for="potencia">
+                        <input type="text" id="potencia" name="potencia">
+                    </label>
+                </div>
+
+                <button onclick="registerNewItem()" type="button">Cadastrar</button>
+
+            </form>
+
+        </div>
+    </main>
+</body>
+
+</html>

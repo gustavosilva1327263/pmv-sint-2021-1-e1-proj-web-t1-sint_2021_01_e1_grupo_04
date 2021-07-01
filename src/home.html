@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/home.css">
+    <script src="./scripts/home.js"></script>
+</head>
+
+<body onload="showUser()">
+    <header>
+        <div class="logo">
+            <h1 class="tittle">MeuMedidor</h1>
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li class="navbar-item">
+                    <a href="home.html">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="itemsList.html">Equipamentos</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="index.html">Sair</a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+</body>
+<main>
+    <div class="container-consumo" id="divEquipamentos">
+        <div class="consumoTotal" id="home-user"></div>
+
+        <table id="listaConsumo" class="consumoTable">
+            <thead id="tHead">
+                <tr>
+                    <th>Equipamento</th>
+                    <th>Consumo</th>
+                </tr>
+            </thead>
+        </table>
+
+        <div class="divLeitura">
+            <button onclick="proximaLeitura()" class="buttonLeitura" style="  display: inline-block">></button>
+        </div>
+
+    </div>
+</main>
+
+</body>
+
+</html>

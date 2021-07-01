@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/index.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="logo">
+                <h1 class="tittle">MeuMedidor</h1>
+            </div>
+
+            <form class="loginForm">
+                <div class="loginForm-Camp">
+                    <label for="login">
+                        <input type="text" id="login" name="login" placeholder="Login" required>
+                    </label>
+                    <label for="senha">
+                        <input type="password" id="password" name="senha" placeholder="Senha" required>
+                    </label>
+                    <div class="novaSenha">
+                        <a href="forgetPassword.html">Esqueceu sua senha?</a>
+                    </div>
+                </div>
+
+                <button onclick="validateUser()" type="button">Entrar</button>
+
+                <div class="separador">
+                    _________________ ou _________________
+                </div>
+                <button onclick="newUser()" type="button">Cadastrar</button>
+
+            </form>
+
+        </div>
+    </main>
+</body>
+
+</html>

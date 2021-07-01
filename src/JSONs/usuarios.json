@@ -6,7 +6,8 @@
             "email": "gustavo@puc.com",
             "phone": "1299992222",
             "login": "gustavopuc",
-            "password": "123"
+            "password": "123",
+            "admin": true
         },
         {
             "id": 445566,
@@ -14,7 +15,8 @@
             "email": "victor@puc.com",
             "phone": "123124",
             "login": "victorpuc",
-            "password": "123"
+            "password": "123",
+            "admin": false
         }
     ]
 }
