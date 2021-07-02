@@ -46,7 +46,7 @@ function validateUser() {
 function sendLink() {
     alert(
         "Instruções de redefinição de senha enviado para " +
-            document.getElementById("email").value
+        document.getElementById("email").value
     );
     window.location.href = "resetPassword.html";
 }
@@ -99,10 +99,11 @@ function newUser() {
     window.location.href = "newUser.html";
 }
 
+var inputnome = document.getElementById("equipamento").value;
+var inputpotencia = document.getElementById("potencia").value;
 function registerNewItem() {
     // declara variáveis  que armazena o nome e potência do produto fornecido pelo usuário
-    var inputnome = document.getElementById("equipamento").value;
-    var inputpotencia = document.getElementById("potencia").value;
+
     //adiciona novo produto com dados fornecido pelo usuário
     if (inputnome != "" && inputpotencia != "") {
         alert("Produto Cadastrado com Sucesso");
@@ -110,7 +111,7 @@ function registerNewItem() {
             nome: inputnome,
             potencia: inputpotencia,
         });
-        window.location.href = "itemsList.html";
+
 
         // Alerta caso o usuario não tenha preenchido dados de cadastro
     } else {
@@ -187,12 +188,12 @@ function showLeitura() {
         let coluna = document.createElement("td"); //Cria um novo elemento TD (celula de dados)
         console.log(
             horario +
-                "   " +
-                diferencaPotencia +
-                " pa:" +
-                potenciaAtual +
-                "potant" +
-                potenciaAnterior
+            "   " +
+            diferencaPotencia +
+            " pa:" +
+            potenciaAtual +
+            "potant" +
+            potenciaAnterior
         );
 
         for (let j = 0; j < listaEquipamentos.length; j++) {

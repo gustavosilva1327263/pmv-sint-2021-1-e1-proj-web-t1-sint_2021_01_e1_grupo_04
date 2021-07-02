@@ -16,7 +16,7 @@ function registerNewItem() {
             nome: inputnome,
             potencia: inputpotencia,
         });
-        window.location.href = "itemsList.html";
+        window.location.href = "itemsListAdmin.html";
 
         // Alerta caso o usuario não tenha preenchido dados de cadastro
     } else {

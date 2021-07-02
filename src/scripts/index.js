@@ -23,7 +23,7 @@ function validateUser() {
     let user = { id: undefined, nome: "" };
     for (let i = 0; i < usuarios.length; i++) {
         if (login == "admin" && senha == "admin") {
-            window.location.href = "newEquipament.html";
+            window.location.href = "admin.html";
         }
         if (login == usuarios[i].login) {
             user.id = usuarios[i].id;
