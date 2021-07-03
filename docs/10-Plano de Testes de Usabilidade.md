@@ -1,8 +1,12 @@
 # Plano de Testes de Usabilidade
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Para os Testes de Usabilidade, foram definidas as seguintes funcionalidades a serem testadas pelos usuários:
 
-Planejamento de realização de testes com usuários definindo as operações que os usuários devem realizar.
+1. Realizar o Login no sistema;
+2. Solicitar alteração de senha;
+3. Cadastrar-se;
+4. Verificação das leituras;
+5. Listagem dos equipamentos;
+6. Realizar o Logout do sistema.
 
-> **Links Úteis**:
-> - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+Além das funcionalidades, fez-se necessário avaliar a facilidade com que os usuários conseguem algumas informações, como a potência de um determinado equipamento ou a hora em que ele foi ligado.
