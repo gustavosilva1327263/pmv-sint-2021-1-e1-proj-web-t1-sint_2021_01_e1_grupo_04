@@ -1,1 +1,13 @@
-{}
+$ node --version
+v14.15.4
+$ heroku buildpacks
+=== issuetriage Buildpack URLs
+1. heroku/nodejs
+{
+  "name": "meu-medidor-puc",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  }
+}
