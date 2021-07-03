@@ -1,8 +1,4 @@
-$ node --version
-v14.15.4
-$ heroku buildpacks
-=== issuetriage Buildpack URLs
-1. heroku/nodejs
+
 {
   "name": "meu-medidor-puc",
   "description": "a really cool app",
